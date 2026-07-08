@@ -19,6 +19,17 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<div style="text-align:center; margin-bottom: 1.5rem;">
+    <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.25rem;">
+        🎾 Tennis Match Winner Predictor
+    </h1>
+    <p style="color: #8b949e; font-size: 0.95rem; margin-top: 0;">
+        Predict ATP match outcomes using surface-specific stats and recent form
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
 
 @st.cache_resource
 def load_model():
